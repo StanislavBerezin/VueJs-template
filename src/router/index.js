@@ -6,6 +6,8 @@ import Router from 'vue-router'
 const Component1 = resolve => require(['@/components/Component1'], resolve)
 const Check = resolve => require(['@/components/Check'], resolve)
 
+
+
 Vue.use(Router)
 
 export default new Router({
